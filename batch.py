@@ -39,7 +39,7 @@ INPUT_FOLDER = Path(args.img_dir) if args.img_dir else Path(__file__).parent / "
 OUTPUT_FOLDER = INPUT_FOLDER
 CLIP_PATH = "google/siglip-so400m-patch14-384"
 VLM_PROMPT = "A descriptive caption for this image:\n"
-MODEL_PATH = "meta-llama/Meta-Llama-3.1-8B"
+MODEL_PATH = "meta-llama/Meta-Llama-3.1-405B-Instruct"
 CHECKPOINT_PATH = Path("wpkklhc6")
 TITLE = "<h1><center>JoyCaption Pre-Alpha (2024-07-30a)</center></h1>"
 
